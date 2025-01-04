@@ -619,3 +619,145 @@ animation-delay: 3s;
     color: white;
 
 }
+@media only screen and (max-width: 768px) {
+    /* General Reset for Small Screens */
+    html body {
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #page1, #page2, #page3, #page4, #page5, #page8 {
+        padding: 0 2vw;
+    }
+
+    nav {
+        padding: 1.5vw;
+        flex-direction: column;
+    }
+
+    #nav2 h4 {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    #center {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 1.5vw;
+    }
+
+    #left h3 {
+        width: 100%;
+        font-size: 3.8vw;
+        line-height: 4vw;
+        text-align:end;
+        display: none;
+    }
+
+    #right h1 {
+        margin-top: 2vw;
+        font-size: 15vw;
+        line-height: 13vw;
+        text-align: center;
+    }
+
+    #hero-shape {
+        height: 80vw;
+        width: 100%;
+        top: auto;
+        bottom: 5vw;
+    }
+
+    #hero1, #hero2, #hero3 {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    #page2 #movingtext h1 {
+        font-size: 6vw;
+    }
+
+    .gola {
+        height: 2vw;
+        width: 2vw;
+    }
+
+    #page2-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page2-bottompart1 {
+        width: 100%;
+    }
+
+    #page2-bottompart2 {
+        width: 90%;
+        margin-top: 5vw;
+    }
+
+    #page3 .elem h2 {
+        font-size: 4vw;
+    }
+
+    #page4 .swiper-slide {
+        margin-top: 20vw;
+        width: 80%;
+        border: none;
+        padding: 0 1vw;
+    }
+
+    #page5 #loshape {
+        height: 60vw;
+    }
+
+    #page5 #shape1 {
+        height: 60vw;
+    }
+
+    #page8 #design {
+        flex-direction: column;
+    }
+
+    #page8 #design1, #page8 #design2 {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #page8 #design1 {
+        padding: 4vw;
+    }
+
+    #page8 #design1 h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+    #footer{
+        z-index: 0;
+        position: absolute;
+    }
+
+    #footer h1 {
+        font-size: 12vw;
+    }
+
+    #footup h3, #footup2 h6, #footup2 p {
+        font-size: 3vw;
+    }
+
+    #footbotm h6 {
+        font-size: 2.5vw;
+    }
+
+    /* Adjust loader for small screens */
+    #loader h1 {
+        font-size: 3vw;
+    }
+
+    /* Cursor adjustments for small screens */
+    .cursor {
+        height: 50px;
+        width: 50px;
+    }
+}
